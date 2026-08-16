@@ -1,0 +1,12 @@
+bool flag3 = GUILayout.Button(string.Format("<size={0}>", Options.Other_Ints["text_size"]) + LocalizationManager.GetLocalizedText("playsets.load", null) + "</size>", new GUILayoutOption[]
+                {
+                    GUILayout.Width((float)(Options.Other_Ints["text_size"] * 20)),
+                    GUILayout.Height((float)(Options.Other_Ints["text_size"] * 1.5))
+                });
+
+
+bool flag2 = GUILayout.Button(string.Format("<size={0}>", Options.Other_Ints["text_size"]) + LocalizationManager.GetLocalizedText("playsets.unload", null) + "</size>", new GUILayoutOption[]
+                {
+                    GUILayout.Width((float)(Options.Other_Ints["text_size"] * 20)),
+                    GUILayout.Height((float)(Options.Other_Ints["text_size"] * 1.5))
+                });
