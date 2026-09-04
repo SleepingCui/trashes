@@ -1,1 +1,1 @@
-g++ -static -static-libgcc -static-libstdc++ -O2 .\tstool.cpp -o tstool.exe -lz -lws2_32
+g++ -static -static-libgcc -static-libstdc++ -O2 .\tstool.cpp -o tstool.exe -lz
