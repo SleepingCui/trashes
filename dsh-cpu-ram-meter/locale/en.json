@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "CPU & Memory Meter",
+    "description": "Shows live whole-machine CPU and memory usage below the message composer."
+  }
+}
